@@ -1,10 +1,7 @@
-/**
- * Retrieves a list of students.
- * @author Hillary Oyaro <https://github.com/hillaryoyaro>
- * @returns {{id: Number, firstName: String, location: String}[]}
- */
 export default function getListStudents() {
-  return [{id: 1, firstName: "Guillaume", location: "San Francisco"},
-          {id: 2, firstName: "James", location: "Columbia"},
-          {id: 5, firstName: "Serena", location: "San Francisco"}];
+  const obj = [];
+  obj.push({ id: 1, firstName: 'Guillaume', location: 'San Francisco' });
+  obj.push({ id: 2, firstName: 'James', location: 'Columbia' });
+  obj.push({ id: 5, firstName: 'Serena', location: 'San Francisco' });
+  return obj;
 }
